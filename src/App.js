@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Cards from './Cards';
 
 function App() { 
   return (
     <div className="App">
-      <div className=" text-red-500 ">Hello World!...</div>
+      <Cards/>
     </div>
   );
 }
