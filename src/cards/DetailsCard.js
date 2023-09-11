@@ -31,12 +31,12 @@ function DetailsCard() {
         {/* Buttons */}
         <div className="flex w-full justify-center">
         <div className=" w-[200px] flex justify-evenly ">
-          <Link to="" className=" bg-gradient-to-r from-[#ff0052] to-orange-500 px-[5px] py-[2px] rounded-[10px] text-white font-bold ">
+          <Link to="https://portfolio-fa997.web.app/" target="_blank" className=" bg-gradient-to-r from-[#ff0052] to-orange-500 px-[5px] py-[2px] rounded-[10px] text-white font-bold ">
             <button>
               Portfolio
             </button>
           </Link>
-          <Link to="" className=" bg-gradient-to-r from-[#ff0052] to-orange-500 px-[5px] py-[2px] rounded-[10px] text-white font-bold ">
+          <Link to="https://www.linkedin.com/in/gladman-sibanda-188a31272/" target="_blank" className=" bg-gradient-to-r from-[#ff0052] to-orange-500 px-[5px] py-[2px] rounded-[10px] text-white font-bold ">
             <button>
               LinkedIn
             </button>
@@ -50,10 +50,10 @@ function DetailsCard() {
 
         {/* Projects */}
         <div className=" flex w-full h-full items-center justify-between mt-[20px] ">
-          <Project projectimage={game} projecttext="Play Game" projectlink="https://translate.google.com/" />
-          <Project projectimage={bot} projecttext="Use Bot" projectlink="https://translate.google.com/" />
-          <Project projectimage={cart} projecttext="View Cart" projectlink="https://translate.google.com/" />
-          <Project projectimage={calculator} projecttext="Calculator" projectlink="https://translate.google.com/" />
+          <Project projectimage={game} projecttext="Play Game" projectlink="https://sparkling-lollipop-51e33e.netlify.app/" />
+          <Project projectimage={bot} projecttext="Use Bot" projectlink="https://64e6e02d27e0cb3c7e370004--gregarious-meringue-d11912.netlify.app/" />
+          <Project projectimage={cart} projecttext="View Cart" projectlink="https://cute-shortbread-92bad8.netlify.app/" />
+          <Project projectimage={calculator} projecttext="Calculator" projectlink="https://clinquant-kangaroo-7fba76.netlify.app/" />
         </div>
       </div>
     </div>
