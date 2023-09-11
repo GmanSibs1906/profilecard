@@ -10,7 +10,7 @@ import signature from "../images/signature.png";
 
 function DetailsCard() {
   return (
-    <div className="flex w-full h-[100vh] overflow-hidden justify-center items-center">
+    <div className="flex ">
 
     <div className=" hidden card w-[700px] h-[467px] md:flex justify-center items-center  rounded-[10px] overflow-hidden relative">
       <div className=" glass w-[689px] h-[456px] absolute z-30 rounded-[10px] flex flex-col ">
