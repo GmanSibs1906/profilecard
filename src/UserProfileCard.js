@@ -7,7 +7,7 @@ function Cards() {
   return (
     <div className=' relative bg-[#181818] flex w-full h-[100vh] justify-center items-center overflow-hidden '>
       {/* HOVER TEXT */}
-      <div className=' absolute flex right-[100px] top-[20px] '>
+      <div className=' hidden absolute lg:flex right-[100px] top-[20px] '>
       <img src={arrow} alt="" className=' mt-[20px] mr-[-20px] ' />
       <div className=' relative w-[50px] h-[50px] rounded-[50%] bg-[#ff0052] '>
         <h3 className=' text-white font-bold text-[45px] flex flex-col '>
@@ -20,14 +20,19 @@ function Cards() {
 
 
 
-    <div className="flex items-center justify-center h-screen relative">
+    <div className=" flex items-center justify-center h-screen relative">
       {/* PICTURE CARD */}
       <div className="relative group">
-        <div className=" transition-opacity duration-300 group-hover:opacity-0">
+        <div className=" hidden lg:flex transition-opacity duration-300 group-hover:opacity-0">
         <PictureCard className=" z-50 hover:hidden "/>
         </div>
         {/* DETAILS CARD */}
-        <div className="absolute inset-0  opacity-0 group-hover:opacity-100">
+
+        <div className=' lg:hidden w-[100vw] h-[100vh] overflow-hidden flex justify-center items-center '>
+        <DetailsCard className="  "/>
+        </div>
+
+        <div className=" hidden lg:flex absolute inset-0  opacity-0 group-hover:opacity-100">
         <DetailsCard className=" absolute hidden mt-[-600px] "/>
         </div>
       </div>
