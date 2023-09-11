@@ -49,7 +49,7 @@
   content: "";
   width: 690px;
   height: 457px;
-  background: #101010;
+  background: #ffffff;
   position: absolute;
   border-radius: 10px;
   display: flex;
@@ -76,4 +76,16 @@
   border-radius: 10px;
   padding: 20px;
   margin: 0 auto;
+}
+
+.glassButton {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.322);
+}
+/* flex items-center flex-col border-r-[1px] border-r-slate-500 px-[12px] */
+.follow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
 }

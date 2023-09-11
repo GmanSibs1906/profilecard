@@ -1,11 +1,15 @@
 import './App.css';
-import Cards from './Cards';
+import UserProfileCard from './UserProfileCard';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() { 
   return (
-    <div className="App">
-      <Cards/>
+    <Router>
+      <div className="App">
+      <UserProfileCard/>
     </div>
+    </Router>
+    
   );
 }
 
