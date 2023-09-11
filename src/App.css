@@ -30,8 +30,23 @@
   color: #61dafb;
 }
 
+.cellCard {
+  box-shadow: 16px 14px 20px #0000008c;
+}
+
 .card {
   box-shadow: 16px 14px 20px #0000008c;
+}
+
+.cellCard::before {
+  content: "";
+  background-image: conic-gradient(#ff0052 20deg,
+      transparent 120deg);
+  width: 150%;
+  height: 150%;
+  position: absolute;
+  animation: rotate 2s linear infinite;
+  /* Changed 'inflate' to 'infinite' */
 }
 
 .card::before {
@@ -43,6 +58,20 @@
   position: absolute;
   animation: rotate 2s linear infinite;
   /* Changed 'inflate' to 'infinite' */
+}
+
+.cellCard::after {
+  content: "";
+  width: 99%;
+  height: 99%;
+  background: #ffffff;
+  position: absolute;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ff0052;
+  box-shadow: inset 20px 20px 20px #0000008c;
 }
 
 .card::after {

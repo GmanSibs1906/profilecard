@@ -7,7 +7,7 @@ function PictureCard() {
     <img src={Gman} alt="" className=' absolute z-30 w-[689px] contain rounded-[10px] ' />
     <div className=" glass flex-col bottom-[4px] absolute z-40 w-[689px] contain rounded-[10px]">
     <h3 className=' text-[30px] font-bold '>Gladman Sibanda</h3>
-    <p>Software Developer</p>
+    <p>Frontend Developer</p>
     </div>
     </div>
   )
