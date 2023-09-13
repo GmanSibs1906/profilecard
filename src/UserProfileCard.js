@@ -26,6 +26,7 @@ function Cards() {
           <div className=" hidden lg:flex transition-opacity duration-300 group-hover:opacity-0">
             <PictureCard className=" z-50 hover:hidden " />
           </div>
+          
           {/* DETAILS CARD */}
           {/*Tablet view */}
           <div className=" hidden md:flex w-[100vw] h-[100vh] overflow-hidden  justify-center items-center lg:hidden  ">
